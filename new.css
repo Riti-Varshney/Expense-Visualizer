@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("bg.png");
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    gap:24px;
+    align-items: center;
+    height: 100vh;
+}
+
+.exp {
+    background-color:rgba(229, 226, 226, 0.174);
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: -9px 9px 9px rgba(255, 255, 255, 0.219);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: -2px -1px 28px rgb(255, 255, 255);
+}
+
+.expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.expense-form input,
+.expense-form select,
+.expense-form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.expense-form button {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+.expense-form button:hover {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+.color
+{
+    color:white;
+}
+tbody
+{
+    text-transform: capitalize;
+}

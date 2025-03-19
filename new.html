@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="exp">
+        <h1>Expense Tracker</h1>
+        <div class="expense-form">
+            <input type="text" id="expName" placeholder="Expense Name">
+            <input type="number" id="expAmount" placeholder="Amount">
+            <select id="expense-category">
+              <option value="Taxes">Taxes</option>
+              <option value="Groceries">Groceries</option>
+              <option value="Entertainment">Entertainment (Streaming Services)</option>
+              <option value="Insurance">Insurance (Health, Car, Home)</option>
+              <option value="Others">Others</option>
+            </select>
+            <button onclick="addExpense()">Add Expense</button>
+        </div>
+    </div>
+    <div class="exp">
+      <h1>Expense List</h1>
+      <table id="expense-table">
+          <thead>
+              <tr>
+                  <th>Expense Name</th>
+                  <th>Amount</th>
+                  <th>Category</th>
+              </tr>
+          </thead>
+          <tbody>
+              <!-- Expense items will go here -->
+          </tbody>
+      </table>
+
+      <div class="total">
+          <h3>Total Expenses: <span id="total-amount">₹0.00</span></h3>
+      </div>
+    </div>
+    <div class="exp color">
+      <h1>Expense Chart</h1>
+      <canvas id="chart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="new.js"></script>
+</body>
+</html>
