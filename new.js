@@ -17,7 +17,7 @@ let expenseChart = new Chart(x, {
             label: 'Expense Distribution',
             data: [0, 0, 0, 0, 0],
             backgroundColor: ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0'],
-            color: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
+            // color: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
             borderColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
             borderWidth: 1
         }
